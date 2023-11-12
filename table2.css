@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 30px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    height: 40px;
+    border: none;
+    border: 1px solid rgb(247, 245, 245);
+}
+table{
+    width: 80%;
+}
+th{
+    border: none;
+    background-color:dodgerblue;
+    color: azure;
+}
+
+.tick{
+    color: green;
+    font-size: 12px;
+   font-weight: bold;
+}
+.x{
+    color: red;
+    font-size: 12px;
+   font-weight: bold;
+}
+
+td button{
+    padding:4px
+}
+
+tr:nth-child(even){
+    background-color: rgb(221, 217, 217);
+}
